@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background: #E1CDE1;
+    /* border-radius: 150px; */
+    
+}
+ 
+.ugaday{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+
+    
+    position: absolute;
+    width: 692px;
+    height: 200px;
+    left: 97px;
+    top: 122px;
+    
+    background: #D3BAE6;
+    border-radius: 100px;
+}
+
+.ugaday h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    padding-top:1px;
+    /* identical to box height, or 106% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.ugaday h2 {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.prizrack {
+    position: absolute;
+    width: 389px;
+    height: 393px;
+    left: 1300px;
+    top: 40px;
+
+    background: url(img/35.png                      );
+    border-radius: 200px;
+}
+
+.inp input {
+    position: absolute;
+    width: 298px;
+    height: 81px;
+    left: 95px;
+    top: 440px;
+
+    background: #FCFBFC;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.inp button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 15px;
+
+    position: absolute;
+    width: 264px;
+    height: 81px;
+    left: 468px;
+    top: 440px;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+
+    background: #CEA1CF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.inp h3 {
+    position: absolute;
+    height: 47px;
+    left: 95px;
+    top: 550px;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    /* or 300% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.figura {
+    position: absolute;
+    width: 432px;
+    height: 325px;
+    left: -93px;
+    top: 670px;
+
+    background: #C4A9D9;
+    border-radius: 100px;
+    /* z-index: 1; */
+}
+
+.figura h1 {
+    position: absolute;
+    left: 180px;
+    bottom: 125px;
+
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 60px;
+    /* or 30% */
+    /* text-transform: uppercase; */
+    /* z-index: 2; */
+
+    color: #000000;
+}
+
+.kot {
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 500px;
+    top: 545px;
+
+    background: url(img/2.png);
+}
+
+.zvezda {
+    /* position: absolute; */
+    width: 600px;
+    height: 400px;
+    left: 20px;
+    margin-top: -70px;
+    
+    background: no-repeat;
+    background: url(https://s3-alpha-sig.figma.com/img/c0ca/5eb9/56f5ba7e1b0a7afb6f84c6787ec4aa40?Expires=1679875200&Signature=LCArIjLmcSUQYlAVoTyZ~fbrlQA71sRwLY~24Lv-dGXZD-ondy-8hdwqCUVmJe4tzuWpYPYvtY-7JdpBhNLOoQm7IlkRwoZ8KYDOZUusuv8JxszRK79L-ve~WkfN-Q014NXXlSAnaPZjSz0qzBvkCrQR4ZryrC5hkFikIzFQzLJ3Hia86PKQEaS3dmikSXGLfZw7Pqs2L5JjdD7aRwgoVnDlRmQYymAJxSheq0NmXJiFgcbuDJ5rQqKz~BMP5DUTNP0STb13E~iHcNssR0BL51xc6RJos8cKutcnoRyWIj28~emY-4NSsicXuxWmYE8ME~ltlnyJ2TVdBmv~cKJ-bQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+
+.right p {
+    /* position: absolute; */
+    width: 220px;
+    height: 83px;
+
+    /* left: px;
+    top: 643px; */
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    width: 222px;
+    height: 55px;
+    right:500px ;
+    top: 657px;
+
+    background: #D3BAE5;
+    border-radius: 100px;
+}
+
+
+
+
+
+.rigthlow {
+    position: absolute;
+    width: 222px;
+    height: 55px;
+    right:500px ;
+    top: 830px;
+
+    background: #D3BAE5;
+    border-radius: 100px;
+}
+
+.rigthlow p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 22px;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.butt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 45px;
+    gap: 10px;
+
+    position: absolute;
+    width: 80px;
+    height: 55px;
+    left: 425px;
+    top: 3px;
+
+    background: #DBA2DC;
+    border-radius: 50px;
+}
+
+.buttw {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 45px;
+    gap: 10px;
+
+    position: absolute;
+    width: 80px;
+    height: 55px;
+    left: 425px;
+    top: 3px;
+
+    background: #DBA2DC;
+    border-radius: 50px;
+}
